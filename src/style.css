@@ -44,3 +44,24 @@ li {
 .overview {
   margin-bottom: 20px;
 }
+
+.weather-temperature img {
+  margin-right: 5px;
+  float: left;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: black;
+  display: inline;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -20px;
+}
