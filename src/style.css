@@ -2,6 +2,13 @@ body {
   font-family: arial, sans-serif;
 }
 
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
 h1 {
   color: #878787;
   display: block;
@@ -69,4 +76,9 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -20px;
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
 }
