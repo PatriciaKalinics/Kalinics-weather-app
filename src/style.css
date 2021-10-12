@@ -82,3 +82,21 @@ li:first-letter {
   color: black;
   cursor: default;
 }
+
+.weather.forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forecast-date {
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.forecast-temperature {
+  font-size: 13px;
+}
+
+.min-forecast-temp {
+  opacity: 0.5;
+}
