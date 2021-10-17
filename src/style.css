@@ -90,7 +90,7 @@ li:first-letter {
 
 .forecast-date {
   font-size: 15px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .forecast-temperature {
@@ -98,5 +98,5 @@ li:first-letter {
 }
 
 .min-forecast-temp {
-  opacity: 0.5;
+  opacity: 0.6;
 }
