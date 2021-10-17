@@ -1,5 +1,12 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "VT323", monospace;
+  text-transform: uppercase;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    rgb(21, 186, 196) 100.3%
+  );
 }
 
 a:hover,
@@ -7,12 +14,14 @@ a:visited,
 a:link,
 a:active {
   text-decoration: none;
+  color: #9f1861;
 }
 
 h1 {
-  color: #878787;
+  color: #27296d;
   display: block;
-  font-size: 24px;
+  font-size: 35px;
+  text-transform: uppercase;
   font-weight: 100;
   height: 26px;
   line-height: 28px;
@@ -28,10 +37,10 @@ ul {
 
 li {
   list-style-type: none;
-  color: #878787;
+  color: #323643;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 100;
   line-height: 20px;
 }
@@ -49,8 +58,10 @@ li:first-letter {
   max-width: 600px;
   margin: 5px auto;
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 3px dashed #27296d;
   border-radius: 10px;
+  background: #feffdf;
+  opacity: 0.9;
 }
 
 .overview {
@@ -65,7 +76,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: black;
+  color: #323643;
   display: inline;
   font-size: 48px;
   font-weight: 400;
@@ -74,29 +85,32 @@ li:first-letter {
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
+  font-size: 20px;
   top: -20px;
 }
 
 .weather-temperature .active {
-  color: black;
+  color: #323643;
   cursor: default;
 }
 
 .weather.forecast {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
 }
 
 .forecast-date {
-  font-size: 15px;
-  opacity: 0.6;
+  font-size: 20px;
+  color: black;
+  opacity: 0.7;
 }
 
 .forecast-temperature {
-  font-size: 13px;
+  color: black;
+  font-size: 20px;
 }
 
 .min-forecast-temp {
-  opacity: 0.6;
+  color: black;
+  opacity: 0.7;
 }
